@@ -1,0 +1,272 @@
+#bground{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    z-index: -5;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+#mainlogo{
+    position: sticky;
+    display: inline-flexbox;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+#reg{
+    float: left;
+}
+#usertab{
+    float: right;
+    margin-right: 50px;
+}
+
+.navbar{
+    background: transparent !important;
+}
+.navbar a, .navbar ul li a {
+    color: white !important;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    display: block;
+    margin-top: -70px;
+}
+.navbar ul li a:hover, .navbar a:hover{
+    text-shadow: rgb(0, 204, 255) 0px 6px 30px;
+    font-size: x-large;
+    transition: all 0.5s ease;
+}
+#logout{
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+#logout:hover{
+    text-shadow: white 0px 0px 30px;
+}
+#emberke{
+    text-align: center !important;
+    font-family: 'Fredoka One', cursive;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.376);
+}
+#emberke{
+    text-decoration: none !important;
+}
+#emberke:hover{
+    text-decoration: none !important;
+    text-shadow: rgb(0, 174, 255) 0px 0px 20px !important;
+    font-size: larger !important;
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+
+icon{
+    color: rgb(80, 229, 255) !important;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px !important;
+}
+
+#foot{
+    background-color: rgba(39, 194, 255, 0.226);
+    border-radius: 20px;
+}
+#hirlevel{
+    background-color: rgba(0, 0, 0, 0.287);
+    border-radius: 20px;
+}
+#hirlevel input{
+ padding: 10px 70px;
+ border: 2px solid rgb(0, 204, 255);
+ border-radius: 5px;
+}
+#hirlevel button{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: rgb(0, 195, 255);
+}
+#hirlevel button:hover{
+    background-color: white;
+}
+#partnerek img{
+    padding: 20px;
+
+}
+#legalja{
+ background-image: linear-gradient(transparent, black);
+}
+#legalja h2{
+    font-weight: 900;
+}
+
+#termekkartya{
+    height: 500px;
+    padding: 5px !important;
+    border: rgb(116, 116, 116) 2px solid !important;
+    border-radius: 20px !important;
+}
+#termekkartyatop5{
+    height: 550px;
+    padding: 10px !important;
+    border: rgb(116, 116, 116) 2px solid !important;
+    border-radius: 10px !important;
+}
+#termekkartya img{
+    
+    max-height:250px;
+}
+.card-body{
+    background-image: repeating-linear-gradient(lightblue, white);
+}
+#termekekvonal{
+    background-color: rgb(64, 200, 224);
+}
+.icon_bar a {
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+  
+.icon_bar a:hover {
+    text-shadow: rgb(62, 216, 255) 0px 0px 50px;
+    font-size: 25px;
+    transition: all 0.5s ease-in;
+
+}
+.fa-2x{
+    color:rgb(58, 216, 255);
+}
+.fa-3x{
+    color:rgb(58, 225, 255);
+    text-shadow: black 2px 2px 2px;
+}
+#kosarka{
+    color: rgb(197, 74, 74) !important;
+    text-shadow: rgb(0, 217, 255) 1px 5px 70px !important;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#vasarlo_tajekoztato{
+    background-color: rgb(80, 229, 255);
+}
+.rendeles_gomb{
+    background-color: rgb(4, 160, 199);
+    font-size: large;
+    font-weight: 900;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none !important;   
+    float: right;
+    margin-right: 50px;
+    text-shadow: white 0px 0px 20px;
+}
+.rendeles_gomb:hover{
+        background-color: rgb(0, 172, 0);
+        transition: all 0.5s ease-in-out;
+        color: white;
+        font-size: larger;
+        padding: 15px 50px;
+        text-shadow: rgb(251, 255, 0) 0px 0px 10px;
+        border-radius: 5px;
+}
+.pupi{
+    list-style-type: none !important;
+    margin-left: -20px;
+}
+.result{
+    z-index: 1;
+}
+footer ul li{
+    list-style-type: none !important;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer ul li a:hover{
+    background-color: rgb(0, 174, 255);
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+#kosarbabele a{
+    color: white;
+    font-size: x-large;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+}
+#kosarbabele a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#kedvencekhez{
+    background-color: red;
+    font-size: xx-large;
+    color: white;
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+#termekinfo ul li{
+    list-style-type: none !important;
+    font-size: small;
+    margin-left: -30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.tovabbi h4{
+padding-bottom: 20px;
+margin-left: -20px;
+    font-weight: 700;
+    font-size: larger;
+}
+.tovabbi{
+
+    font-size: larger;
+    font-weight: 400;
+}
+.tovabbi ul li{
+    margin-left: -50px;    
+    list-style-type: none !important;
+    padding-bottom: 10px;
+}
+.tovabbi ul li a{
+    text-decoration-style: none !important;
+    color: rgb(0, 119, 255) !important;
+}
+.tovabbi ul li a:hover{
+    background-color: rgb(0, 174, 255) !important;
+    color: black !important;
+    text-decoration: none !important;
+    display: block !important;
+}
+#modositos{
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 30px;
+}
+.bereg{
+    text-decoration: none;
+    color: white;
+}
+.bereg:hover{
+    background-color: rgb(0, 174, 255) !important;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    transition: all 0.5s ease;
+    padding: 10px;
+    border-radius: 20px;
+}
+.ugras{
+    margin-left: 80px;
+    text-decoration: none !important;
+    color: rgb(36, 36, 36) !important;
+}
